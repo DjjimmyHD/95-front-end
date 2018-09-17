@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
 import ReactDOM from 'react-dom'
+import StudentList from './components/StudentList'
 
 class App extends Component {
   constructor (props) {
@@ -10,15 +11,14 @@ class App extends Component {
   }
 
   componentDidMount () {
-    return fetch('http://localhost:5555/')
+    return fetch('https://g95server.herokuapp.com/')
       .then(response => response.json())
       .then(responseJSON => this.setState({studentList: responseJSON.data}))
-      .then(butts => { console.log(this.state) })
   }
   render () {
     return (
       <div>
-        <h1>Hiiiiiiiii</h1>
+        <StudentList students={this.state.studentList} />
       </div>
     )
   }
