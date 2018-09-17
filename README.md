@@ -4,7 +4,7 @@
 
 * [Repo](https://github.com/ninjames101/95-front-end)
 
-* [Deployed App](http://exultant-produce.surge.sh/)
+* [Deployed App](http://tired-orange.surge.sh/)
 
 ## Back End
 
