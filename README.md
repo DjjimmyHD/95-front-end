@@ -10,7 +10,7 @@
 
 * [Repo](https://github.com/ninjames101/95-server)
 
-* [Deployed API](https://g95server.herokuapp.com/)
+* [Deployed API](https://gclass-server.herokuapp.com/)
 
 ## Description
 
